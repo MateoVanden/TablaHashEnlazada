@@ -1,5 +1,7 @@
+//Clase Main
 public class Main {
     public static void main(String[] args) throws Exception {
+
         TablaEncadenada tablaEncadenada = new TablaEncadenada();
 
         TipoSocio socio1 = new TipoSocio("Mateo", 300, 21, 22, 9, 2004);
