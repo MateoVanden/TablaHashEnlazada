@@ -73,13 +73,11 @@ public class TablaEncadenada {
             p = tabla[posicion];
             while ((p.sgte != null) && p.socio.codigo != codigo){
                 p = p.sgte;
-                }
+            }
             if (p.socio.codigo != codigo){
                 p = null;
-                }
+            }
         }
-
         return p;
     }
-
 }

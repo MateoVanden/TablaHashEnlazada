@@ -31,6 +31,14 @@ public class TipoSocio {
         return codigo;
     }
 
+    public String getNombre(){
+        return nombre;
+    }
+
+    public int getEdad(){
+        return edad;
+    }
+
     public void muestra(){
         System.out.println("\n Nombre: " + nombre +  "Codigo: " + codigo+ "edad: " + edad +"Fecha: " + f);
     }
